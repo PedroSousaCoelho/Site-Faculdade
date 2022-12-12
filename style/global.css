@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' ;
+}
+header .cidade{
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50pt;
+}
+body{
+    background-color: #fff;
+}
+.secao1{
+    padding: 200px;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.global{
+    display: flex;
+    border-radius: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(129, 129, 129);
+}
+.secao1 .global .sec-1 .img-sec_1{
+    float: left;
+    padding: 20px;
+    padding-left: 20px;
+}
+.secao1 .global .sec-1 .img-sec_1 img{ 
+    width: 600px;
+    height: 400px;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+.secao1 .global .sec-1 .h1_sec1{ 
+    font-size: 20pt;
+    color: white;
+    padding-top: 25px;
+}
+.secao1 .global .sec-1 .h1_sec1 p{
+    color: #fff;
+    font-size: 20pt;
+}
+.secao1 .global .sec-1 .sec-link_1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 10px;
+    justify-content: center;
+    height: 150px;
+    width: 1260px;
+}
+.secao1 .global .sec-1 .sec-link_1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25pt;
+    background-color: #a8bb9a;
+    text-align: center;
+    border-radius: 10px;
+}
+.secao1 .global .sec-1 .sec-link_1 a:hover{
+    color: white;
+    font-size: 30pt;
+}
+ iframe{ 
+    height: 400px;
+    width: 1800px;
+}
+.iframe-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.h1-footer{
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    height: 70px;
+    text-align: center;
+}
+footer p{
+    font-size: 15pt;
+    color: white;
+    padding-top: 20px;
+    font-style: italic;
+}
